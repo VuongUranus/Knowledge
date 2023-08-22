@@ -70,6 +70,19 @@
 
         -   kubeadm: kubeadm là một công cụ dòng lệnh chính thức của Kubernetes để cài đặt cụm Kubernetes. Bạn có thể sử dụng kubeadm để cài đặt, cấu hình và quản lý một cụm Kubernetes trên các VM.
 
+            -   Ưu điểm:
+                -   Tiêu chuẩn và mạnh mẽ: kubeadm là một công cụ chính thức và mạnh mẽ để triển khai cụm Kubernetes. Nó tuân thủ các tiêu chuẩn Kubernetes và được hỗ trợ chính thức bởi cộng đồng.
+                -   Tích hợp dễ dàng: kubeadm hỗ trợ việc triển khai các thành phần cơ bản của Kubernetes như API Server, Controller Manager và Scheduler một cách tự động và chuẩn mực.
+                -   Điều chỉnh tùy chỉnh: kubeadm cho phép bạn tùy chỉnh cấu hình cụm Kubernetes của mình để đáp ứng các yêu cầu cụ thể của dự án.
+                -   Khả năng mở rộng tốt: kubeadm giúp bạn mở rộng cụm Kubernetes bằng cách thêm Node mới vào cụm một cách dễ dàng.
+                -   Hỗ trợ HA (High Availability): kubeadm hỗ trợ triển khai các cụm Kubernetes có tính sẵn sàng cao thông qua việc kích hoạt tính năng HA.
+
+            -   Nhược điểm:
+                -   Phức tạp trong cấu hình ban đầu: So với các công cụ như k3s và k0s, kubeadm yêu cầu kiến thức về cấu hình Kubernetes khá cao và có thể tốn thời gian để cấu hình một cách chính xác.
+                -   Yêu cầu nhiều công việc thủ công: Kubeadm cung cấp khả năng triển khai cụm, nhưng sau khi triển khai, bạn cần thực hiện nhiều bước thủ công để cấu hình và quản lý cụm.
+                -   Khả năng sai sót trong cấu hình: Do cấu hình ban đầu phức tạp và có nhiều tùy chọn, có thể xảy ra sai sót trong việc cấu hình, dẫn đến sự không ổn định hoặc lỗi sau này.
+                -   Khó khăn trong việc duy trì: Việc duy trì cụm Kubernetes triển khai bằng kubeadm có thể khá phức tạp, đặc biệt là khi bạn cần thêm hoặc bổ sung các thành phần hoặc tính năng mới.
+
         -   kubespray: kubespray (trước đây là kargo) là một dự án mã nguồn mở cung cấp tập hợp các tệp cấu hình và scripts để cài đặt và quản lý cụm Kubernetes. Điều này thường phức tạp hơn so với kubeadm, nhưng cung cấp nhiều tùy chọn tùy chỉnh hơn.
 
         -   Minikube: Mặc dù được thiết kế để triển khai cụm Kubernetes đơn giản trên máy tính cá nhân, Minikube cũng có thể được sử dụng để tạo và quản lý một cụm Kubernetes đơn giản trên các VM.
