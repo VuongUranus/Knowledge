@@ -1,0 +1,5 @@
+Datadog là một nền tảng quản lý hiệu suất và giám sát hệ thống dựa trên đám mây được sử dụng để theo dõi và quản lý hoạt động của các ứng dụng và hạ tầng công nghệ thông tin. Nó cung cấp các công cụ để thu thập, xử lý và hiển thị thông tin liên quan đến hiệu suất ứng dụng, hạ tầng máy chủ, dịch vụ mạng, cơ sở dữ liệu, hệ thống lưu trữ và nhiều phần khác của môi trường công nghệ.
+
+Datadog cho phép người dùng giám sát các chỉ số quan trọng như thời gian phản hồi, tải trọng CPU, tài nguyên RAM, băng thông mạng và các chỉ số khác để đảm bảo rằng hệ thống hoạt động một cách hiệu quả và ổn định. Nó cũng cung cấp khả năng tự động phát hiện sự cố và cảnh báo người dùng thông qua thông báo qua email, tin nhắn văn bản hoặc các kênh thông tin khác khi có sự cố xảy ra hoặc các chỉ số vượt quá ngưỡng được đặt trước.
+
+Ngoài ra, Datadog cũng cung cấp khả năng lưu trữ và phân tích dữ liệu giám sát trong thời gian thực và lịch sử, giúp người dùng theo dõi xu hướng, phân tích nguyên nhân gốc rễ của sự cố và tối ưu hóa hiệu suất hệ thống. Điều này giúp các doanh nghiệp và tổ chức duy trì và nâng cao chất lượng dịch vụ của họ trong môi trường công nghệ ngày càng phức tạp.
