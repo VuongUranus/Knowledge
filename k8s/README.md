@@ -138,6 +138,18 @@
                 -   Phạm vi sử dụng hạn chế: k0s thường phù hợp với các trường hợp sử dụng có nguồn tài nguyên hạn chế như máy tính cá nhân, cơ sở hạ tầng edge hoặc các môi trường IoT. Tuy nhiên, nếu bạn đang triển khai một ứng dụng phức tạp hoặc cần sự đa dạng về tính năng, bạn có thể cần xem xét sự lựa chọn khác.
 
         -   RKE (Rancher Kubernetes Engine): RKE là một công cụ cài đặt Kubernetes do Rancher Labs phát triển, cho phép bạn triển khai cụm Kubernetes trên các máy ảo một cách tùy chỉnh và quản lý chúng qua giao diện dòng lệnh.
+            -   Ưu điểm:
+                -   Giao diện đồ họa dễ sử dụng: Rancher cung cấp một giao diện đồ họa trực quan, cho phép bạn quản lý và theo dõi cụm Kubernetes mà không cần kiến thức chuyên sâu về lệnh dòng.
+                -   Quản lý nhiều cụm dễ dàng: Rancher cho phép bạn quản lý nhiều cụm Kubernetes từ một giao diện duy nhất, giúp bạn tiết kiệm thời gian và công sức trong việc quản lý nhiều môi trường.
+                -   Triển khai ứng dụng nhanh chóng: Rancher cung cấp khả năng triển khai các ứng dụng và dịch vụ trong cụm Kubernetes một cách nhanh chóng thông qua các "App Catalogs", giúp bạn tiết kiệm thời gian trong việc cấu hình và triển khai ứng dụng.
+                -   Hỗ trợ nhiều nhà cung cấp dịch vụ điện toán đám mây: Rancher hỗ trợ triển khai cụm Kubernetes trên nhiều nhà cung cấp dịch vụ điện toán đám mây như AWS, Azure, Google Cloud và nhiều nền tảng khác.
+                -   Bảo mật và RBAC: Rancher cung cấp chức năng quản lý quyền truy cập dựa trên vai trò (RBAC) để kiểm soát quyền truy cập vào tài nguyên trong cụm Kubernetes.
+
+            -   Nhược điểm:
+                -   Tài nguyên hệ thống: Rancher yêu cầu một số tài nguyên hệ thống để triển khai và chạy. Trong môi trường tài nguyên hạn chế, điều này có thể ảnh hưởng đến hiệu suất của cụm Kubernetes.
+                -   Khả năng tùy chỉnh hạn chế: Mặc dù Rancher cung cấp nhiều khả năng tùy chỉnh, nhưng trong một số trường hợp, bạn có thể gặp khó khăn trong việc tùy chỉnh cụm Kubernetes một cách linh hoạt.
+                -   Học phí ban đầu: Mặc dù giao diện đồ họa dễ sử dụng, nhưng việc làm quen với Rancher và hiểu rõ về các tính năng có thể đòi hỏi một thời gian để học và làm quen.
+                -   Phiên bản cộng đồng và thương mại: Rancher có phiên bản cộng đồng miễn phí và phiên bản thương mại với các tính năng bổ sung. Phiên bản cộng đồng có thể hạn chế một số tính năng so với phiên bản thương mại.
 
 3. Làm quen với Command-line Interface (CLI):
 
